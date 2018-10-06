@@ -1,0 +1,242 @@
+
+
+  /*Background Images:The background pattern used was found on Subtle Patterns. You can browse
+ through that site and find whichever pattern you like.----For all other fonts use 'Arial', 'Helvetica Neue',
+  Helvetica, sans-serif;. */
+
+
+/*------  header ----------------*/
+header {
+    width: 100%;
+	height: auto;
+    background-color: #ffffff;
+    border-bottom: 4px solid #dbd4d4;
+    padding: 5px;
+}
+
+/*------navigation items ----------------*/
+.nav {
+    float: right;
+    width: 100%;
+    padding: 10px;   
+}
+
+/*------Main body ----------------*/
+
+  body {
+    background-image: url("/Basic-Portfolio-Syeda/assets/images/asanoha-bg.png");
+    background-repeat: no-repeat cover; 
+    
+    margin-top: 0;
+    font-size: 16px;
+        
+}
+ 
+p {font-family:  Georgia, 'Times New Roman', Times, serif;
+    line-height:2;
+    font-size: 16;
+}
+
+/* --------element specification for the Main Logo Name heading-------*/
+section {
+    
+    width: 20%;
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 24px;
+    font-style: bold;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    padding: 15px;
+}
+
+/* --------Tag for the Main Logo Name heading-------*/
+
+#absolute {
+    position: absolute;
+    left: 140px;
+    width: 250px;
+    height: 15px;
+    top: 0%;
+    padding: 20px;
+    text-align: center;
+   
+  }
+
+
+
+/*clearing float from both sides*/
+.clearfix {
+    clear: both; 
+}
+
+
+/* Main content background color: #ffffff---Main content border color: #dddddd */
+/*  Dimensions: The entire content and the main section content area is 960px wide. */
+
+.container {
+
+    margin: 40px auto 40px auto;
+    max-width: 960px ;
+    border:#dbd4d4 2px solid;
+    background-color: #ffffff;
+    padding: 20px;
+   
+}
+
+/* --------Tags in the navigation bar*-------*/
+
+#about{
+    float: right;
+    width:10%;
+    margin: auto;
+    padding: 9px;
+    border-right:#dbd4d4 2px solid;
+    text-align: center;
+   
+}
+
+#contact{
+    float: right;
+    width:10%;
+    margin: auto;
+    padding: 9px;
+    border-right:#dbd4d4 2px solid;
+    text-align: center;
+   
+}
+#portfolio{
+    float: right;
+    width:10%;
+    margin: auto;
+    padding: 9px;
+    text-align: center;
+   
+}
+
+
+/* --------Tag for the proflie image*-------*/
+#bio-image {
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    margin-left: 20px;
+    float: left;
+    padding: 10px;
+}
+  
+/* --------Tags for the heading in the container-------*/
+#about-me {
+    font-size: 30px;
+    margin: auto auto;
+    border-bottom: #b8b5b5 4px solid;  
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #4aaaa5;
+    padding: 10px;
+}
+
+
+
+/* --------portfolio pictures section-------*/
+.imagesection {position: relative;} 
+
+ 
+  /* Moving the pictures in the second col */
+
+  .card {
+      float: left;
+      width: 400px;
+  }
+
+  /* Relative Position for the pictures in the portfolio page */
+  .pic-box {  
+    position: relative;
+    width: 250px;
+    height: 180px;
+    
+    
+   }
+
+  /* Lables for the Portfolio Page */
+   .box-set {
+    position: absolute;
+    font-size: 24px;
+    color: white;
+    line-height: 80px; 
+    width: 250px;
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+     /* ------Visual for the text-------- */
+    background-color: #4aaaa5;
+    
+    } 
+ 
+ /* Image tag for the Portfolio Page */
+
+    #img{
+    Position: relative; 
+    width: 250px;
+    height: 180px;
+    margin-top: 20px;
+    z-index: 1;
+    overflow: auto;
+    
+    }
+
+/* text tag for the Portfolio Page */
+    #text {
+    Position: absolute; 
+    margin-top: 40px;
+    bottom: 15px;
+    z-index: 2;
+   
+ }
+    
+
+
+
+
+/* ----------- Contact Page ----------------*/
+  .contact {
+    width: 960px;
+ }
+
+
+.contact label {
+	display: block;
+	padding-bottom: 8px;
+ }
+
+
+.contact input, .contact textarea {
+	width: 95%;
+	border: 1px solid #cccccc;
+	margin-bottom: 24px;
+	padding: 16px;
+	font-size: 14px;
+ }
+/* ----------Submit Button----------  */
+.contact input[type="submit"] {
+	width: auto;
+	background-color: #4aaaa5;
+	color: #ffffff;
+	border: none;
+	padding: 16px 32px;
+	font-size: 16px;
+}
+
+
+
+
+/*Footer background color: #666666*/   /*font color --white*/
+.footer {
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    background-color: #666666;       
+    color: white;                   
+    text-align: center;
+    padding: 7px;
+    border-top: 8px solid #4aaaa5;
+    overflow: auto;
+ }
